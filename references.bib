@@ -1,0 +1,103 @@
+% =====================================================================
+%  references.bib  --  your reference list (BibTeX database)
+%  EDU B.Sc. Thesis Template
+% ---------------------------------------------------------------------
+%  HOW IT WORKS
+%  * Each reference is one entry that starts with an at-sign, e.g.
+%      (at)article{key, author = {...}, title = {...}, ...}
+%  * Cite it in main.tex with  \cite{key}  ->  prints [1], [2], ...
+%  * Only references you \cite appear in the thesis, numbered in the
+%    order you first cite them (IEEE style). Order here does not matter.
+%  * Easiest way to get an entry: Google Scholar -> "Cite" -> "BibTeX",
+%    paste it below, then check the fields (Scholar is often incomplete).
+%  * NOTE: never type the at-sign inside a % comment in this file --
+%    BibTeX does not treat % as a comment and would read it as an entry.
+%  * Keep the key short and unique, e.g. lastnameYEARword: vaswani2017attention
+%
+%  The entries below are SAMPLES showing the most common types.
+%  Delete them (and the \nocite line in main.tex) when you add your own.
+% =====================================================================
+
+
+% ---------------------------------------------------------------------
+%  Journal article                                 -> type: article
+% ---------------------------------------------------------------------
+@article{zheng2018,
+  author  = {Zheng, G. and Tsiopoulos, A. and Friderikos, V.},
+  title   = {Optimal {VNF} Chains Management for Proactive Caching},
+  journal = {IEEE Transactions on Wireless Communications},
+  volume  = {17},
+  number  = {10},
+  pages   = {6735--6748},
+  month   = oct,
+  year    = {2018}
+}
+
+% ---------------------------------------------------------------------
+%  Conference paper                                -> type: inproceedings
+% ---------------------------------------------------------------------
+@inproceedings{oljira2017,
+  author    = {Oljira, D. B. and Grinnemo, K. and Taheri, J. and Brunstrom, A.},
+  title     = {A Model for {QoS}-Aware {VNF} Placement and Provisioning},
+  booktitle = {Proc. IEEE Conference on Network Function Virtualization and
+               Software Defined Networks (NFV-SDN)},
+  pages     = {1--7},
+  year      = {2017}
+}
+
+% ---------------------------------------------------------------------
+%  Report / white paper (organisation as author)   -> type: techreport
+%  Double braces {{...}} keep an organisation name exactly as written.
+% ---------------------------------------------------------------------
+@techreport{cisco2019,
+  author      = {{Cisco}},
+  title       = {Cisco Visual Networking Index: Global Mobile Data Traffic
+                 Forecast Update, 2017--2022},
+  institution = {Cisco Systems},
+  type        = {White Paper},
+  year        = {2019}
+}
+
+% ---------------------------------------------------------------------
+%  Book                                            -> type: book
+% ---------------------------------------------------------------------
+@book{goodfellow2016deep,
+  author    = {Goodfellow, I. and Bengio, Y. and Courville, A.},
+  title     = {Deep Learning},
+  publisher = {MIT Press},
+  address   = {Cambridge, MA, USA},
+  year      = {2016}
+}
+
+% ---------------------------------------------------------------------
+%  arXiv / preprint                                -> type: misc
+% ---------------------------------------------------------------------
+@misc{devlin2018bert,
+  author       = {Devlin, J. and Chang, M.-W. and Lee, K. and Toutanova, K.},
+  title        = {{BERT}: Pre-training of Deep Bidirectional Transformers for
+                  Language Understanding},
+  howpublished = {arXiv preprint arXiv:1810.04805},
+  year         = {2018}
+}
+
+% ---------------------------------------------------------------------
+%  Website / online documentation                  -> type: misc  (with url)
+%  Always give the date you accessed the page in "note".
+% ---------------------------------------------------------------------
+@misc{pytorchdocs,
+  author       = {{PyTorch Contributors}},
+  title        = {{PyTorch} Documentation},
+  howpublished = {\url{https://pytorch.org/docs/stable/index.html}},
+  note         = {Accessed: Oct. 2, 2026},
+  year         = {2026}
+}
+
+% ---------------------------------------------------------------------
+%  Other useful types (copy, remove the leading % signs,
+%  and change "(at)" to the at-sign):
+%
+%  (at)phdthesis{key,     author={...}, title={...}, school={...}, year={...}}
+%  (at)mastersthesis{key, author={...}, title={...}, school={...}, year={...}}
+%  (at)incollection{key,  author={...}, title={...}, booktitle={...},
+%                      editor={...}, publisher={...}, pages={...}, year={...}}
+% ---------------------------------------------------------------------
